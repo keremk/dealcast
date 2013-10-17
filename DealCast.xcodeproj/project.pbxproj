@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F63451FA8B465487780273 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EA49EF03524592AF8AE588 /* libPods.a */; };
+		BDE2646B180B5A27001BD3FC /* CVDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2646A180B5A27001BD3FC /* CVDeal.m */; };
+		BDE2646C180B5A27001BD3FC /* CVDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2646A180B5A27001BD3FC /* CVDeal.m */; };
+		BDE2647A180DA52E001BD3FC /* CVDealActivationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE26479180DA52E001BD3FC /* CVDealActivationViewController.m */; };
+		BDE2647B180DA52E001BD3FC /* CVDealActivationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE26479180DA52E001BD3FC /* CVDealActivationViewController.m */; };
+		BDE2647E180E0FFF001BD3FC /* CVDealsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2647D180E0FFF001BD3FC /* CVDealsDataController.m */; };
+		BDE2647F180E0FFF001BD3FC /* CVDealsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2647D180E0FFF001BD3FC /* CVDealsDataController.m */; };
+		BDE26481180E14BA001BD3FC /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDE26480180E14BA001BD3FC /* Settings.plist */; };
+		BDFFDFB917FF233C004D56DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFB817FF233C004D56DE /* Foundation.framework */; };
+		BDFFDFBB17FF233C004D56DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFBA17FF233C004D56DE /* CoreGraphics.framework */; };
+		BDFFDFBD17FF233C004D56DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFBC17FF233C004D56DE /* UIKit.framework */; };
+		BDFFDFC317FF233C004D56DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDFFDFC117FF233C004D56DE /* InfoPlist.strings */; };
+		BDFFDFC517FF233C004D56DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFDFC417FF233C004D56DE /* main.m */; };
+		BDFFDFC917FF233C004D56DE /* CVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFDFC817FF233C004D56DE /* CVAppDelegate.m */; };
+		BDFFDFCC17FF233C004D56DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFFDFCA17FF233C004D56DE /* Main.storyboard */; };
+		BDFFDFCF17FF233C004D56DE /* CVDealListController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFDFCE17FF233C004D56DE /* CVDealListController.m */; };
+		BDFFDFD217FF233C004D56DE /* CVDealBeaconsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFDFD117FF233C004D56DE /* CVDealBeaconsController.m */; };
+		BDFFDFD417FF233C004D56DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFFDFD317FF233C004D56DE /* Images.xcassets */; };
+		BDFFDFDB17FF233C004D56DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFDA17FF233C004D56DE /* XCTest.framework */; };
+		BDFFDFDC17FF233C004D56DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFB817FF233C004D56DE /* Foundation.framework */; };
+		BDFFDFDD17FF233C004D56DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFBC17FF233C004D56DE /* UIKit.framework */; };
+		BDFFDFE517FF233C004D56DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDFFDFE317FF233C004D56DE /* InfoPlist.strings */; };
+		BDFFDFE717FF233C004D56DE /* DealCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFDFE617FF233C004D56DE /* DealCastTests.m */; };
+		BDFFDFF117FFB116004D56DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFF017FFB116004D56DE /* CoreLocation.framework */; };
+		BDFFDFF317FFB12F004D56DE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFFDFF217FFB12F004D56DE /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDFFDFDE17FF233C004D56DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFFDFAD17FF233C004D56DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFFDFB417FF233C004D56DE;
+			remoteInfo = DealCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12EA49EF03524592AF8AE588 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E85513F4BA64860846FC405 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BDE26469180B5A27001BD3FC /* CVDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDeal.h; sourceTree = "<group>"; };
+		BDE2646A180B5A27001BD3FC /* CVDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDeal.m; sourceTree = "<group>"; };
+		BDE26478180DA52E001BD3FC /* CVDealActivationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDealActivationViewController.h; sourceTree = "<group>"; };
+		BDE26479180DA52E001BD3FC /* CVDealActivationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDealActivationViewController.m; sourceTree = "<group>"; };
+		BDE2647C180E0FFF001BD3FC /* CVDealsDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDealsDataController.h; sourceTree = "<group>"; };
+		BDE2647D180E0FFF001BD3FC /* CVDealsDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDealsDataController.m; sourceTree = "<group>"; };
+		BDE26480180E14BA001BD3FC /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		BDFFDFB517FF233C004D56DE /* DealCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFFDFB817FF233C004D56DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDFFDFBA17FF233C004D56DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDFFDFBC17FF233C004D56DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDFFDFC017FF233C004D56DE /* DealCast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DealCast-Info.plist"; sourceTree = "<group>"; };
+		BDFFDFC217FF233C004D56DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDFFDFC417FF233C004D56DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDFFDFC617FF233C004D56DE /* DealCast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DealCast-Prefix.pch"; sourceTree = "<group>"; };
+		BDFFDFC717FF233C004D56DE /* CVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVAppDelegate.h; sourceTree = "<group>"; };
+		BDFFDFC817FF233C004D56DE /* CVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVAppDelegate.m; sourceTree = "<group>"; };
+		BDFFDFCB17FF233C004D56DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFFDFCD17FF233C004D56DE /* CVDealListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVDealListController.h; sourceTree = "<group>"; };
+		BDFFDFCE17FF233C004D56DE /* CVDealListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVDealListController.m; sourceTree = "<group>"; };
+		BDFFDFD017FF233C004D56DE /* CVDealBeaconsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVDealBeaconsController.h; sourceTree = "<group>"; };
+		BDFFDFD117FF233C004D56DE /* CVDealBeaconsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVDealBeaconsController.m; sourceTree = "<group>"; };
+		BDFFDFD317FF233C004D56DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDFFDFD917FF233C004D56DE /* DealCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFFDFDA17FF233C004D56DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDFFDFE217FF233C004D56DE /* DealCastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DealCastTests-Info.plist"; sourceTree = "<group>"; };
+		BDFFDFE417FF233C004D56DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDFFDFE617FF233C004D56DE /* DealCastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealCastTests.m; sourceTree = "<group>"; };
+		BDFFDFF017FFB116004D56DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BDFFDFF217FFB12F004D56DE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFFDFB217FF233C004D56DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFFDFF317FFB12F004D56DE /* CoreBluetooth.framework in Frameworks */,
+				BDFFDFF117FFB116004D56DE /* CoreLocation.framework in Frameworks */,
+				BDFFDFBB17FF233C004D56DE /* CoreGraphics.framework in Frameworks */,
+				BDFFDFBD17FF233C004D56DE /* UIKit.framework in Frameworks */,
+				BDFFDFB917FF233C004D56DE /* Foundation.framework in Frameworks */,
+				14F63451FA8B465487780273 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFFDFD617FF233C004D56DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFFDFDB17FF233C004D56DE /* XCTest.framework in Frameworks */,
+				BDFFDFDD17FF233C004D56DE /* UIKit.framework in Frameworks */,
+				BDFFDFDC17FF233C004D56DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE26468180B5A10001BD3FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDE26469180B5A27001BD3FC /* CVDeal.h */,
+				BDE2646A180B5A27001BD3FC /* CVDeal.m */,
+				BDE2647C180E0FFF001BD3FC /* CVDealsDataController.h */,
+				BDE2647D180E0FFF001BD3FC /* CVDealsDataController.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDFFDFAC17FF233C004D56DE = {
+			isa = PBXGroup;
+			children = (
+				BDFFDFBE17FF233C004D56DE /* DealCast */,
+				BDFFDFE017FF233C004D56DE /* DealCastTests */,
+				BDFFDFB717FF233C004D56DE /* Frameworks */,
+				BDFFDFB617FF233C004D56DE /* Products */,
+				1E85513F4BA64860846FC405 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFFDFB617FF233C004D56DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFDFB517FF233C004D56DE /* DealCast.app */,
+				BDFFDFD917FF233C004D56DE /* DealCastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFFDFB717FF233C004D56DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFDFF217FFB12F004D56DE /* CoreBluetooth.framework */,
+				BDFFDFF017FFB116004D56DE /* CoreLocation.framework */,
+				BDFFDFB817FF233C004D56DE /* Foundation.framework */,
+				BDFFDFBA17FF233C004D56DE /* CoreGraphics.framework */,
+				BDFFDFBC17FF233C004D56DE /* UIKit.framework */,
+				BDFFDFDA17FF233C004D56DE /* XCTest.framework */,
+				12EA49EF03524592AF8AE588 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDFFDFBE17FF233C004D56DE /* DealCast */ = {
+			isa = PBXGroup;
+			children = (
+				BDE26468180B5A10001BD3FC /* Models */,
+				BDFFDFC717FF233C004D56DE /* CVAppDelegate.h */,
+				BDFFDFC817FF233C004D56DE /* CVAppDelegate.m */,
+				BDFFDFCA17FF233C004D56DE /* Main.storyboard */,
+				BDFFDFCD17FF233C004D56DE /* CVDealListController.h */,
+				BDFFDFCE17FF233C004D56DE /* CVDealListController.m */,
+				BDFFDFD017FF233C004D56DE /* CVDealBeaconsController.h */,
+				BDFFDFD117FF233C004D56DE /* CVDealBeaconsController.m */,
+				BDFFDFD317FF233C004D56DE /* Images.xcassets */,
+				BDFFDFBF17FF233C004D56DE /* Supporting Files */,
+				BDE26478180DA52E001BD3FC /* CVDealActivationViewController.h */,
+				BDE26479180DA52E001BD3FC /* CVDealActivationViewController.m */,
+			);
+			path = DealCast;
+			sourceTree = "<group>";
+		};
+		BDFFDFBF17FF233C004D56DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFDFC017FF233C004D56DE /* DealCast-Info.plist */,
+				BDFFDFC117FF233C004D56DE /* InfoPlist.strings */,
+				BDFFDFC417FF233C004D56DE /* main.m */,
+				BDFFDFC617FF233C004D56DE /* DealCast-Prefix.pch */,
+				BDE26480180E14BA001BD3FC /* Settings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDFFDFE017FF233C004D56DE /* DealCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFDFE617FF233C004D56DE /* DealCastTests.m */,
+				BDFFDFE117FF233C004D56DE /* Supporting Files */,
+			);
+			path = DealCastTests;
+			sourceTree = "<group>";
+		};
+		BDFFDFE117FF233C004D56DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFDFE217FF233C004D56DE /* DealCastTests-Info.plist */,
+				BDFFDFE317FF233C004D56DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFFDFB417FF233C004D56DE /* DealCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFFDFEA17FF233C004D56DE /* Build configuration list for PBXNativeTarget "DealCast" */;
+			buildPhases = (
+				EDBBB13EEAC040BF926BAC97 /* Check Pods Manifest.lock */,
+				BDFFDFB117FF233C004D56DE /* Sources */,
+				BDFFDFB217FF233C004D56DE /* Frameworks */,
+				BDFFDFB317FF233C004D56DE /* Resources */,
+				E05D730E2D0B4046A4CC09BB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealCast;
+			productName = DealCast;
+			productReference = BDFFDFB517FF233C004D56DE /* DealCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDFFDFD817FF233C004D56DE /* DealCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFFDFED17FF233C004D56DE /* Build configuration list for PBXNativeTarget "DealCastTests" */;
+			buildPhases = (
+				BDFFDFD517FF233C004D56DE /* Sources */,
+				BDFFDFD617FF233C004D56DE /* Frameworks */,
+				BDFFDFD717FF233C004D56DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFFDFDF17FF233C004D56DE /* PBXTargetDependency */,
+			);
+			name = DealCastTests;
+			productName = DealCastTests;
+			productReference = BDFFDFD917FF233C004D56DE /* DealCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFFDFAD17FF233C004D56DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CodingVentures;
+				TargetAttributes = {
+					BDFFDFD817FF233C004D56DE = {
+						TestTargetID = BDFFDFB417FF233C004D56DE;
+					};
+				};
+			};
+			buildConfigurationList = BDFFDFB017FF233C004D56DE /* Build configuration list for PBXProject "DealCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFFDFAC17FF233C004D56DE;
+			productRefGroup = BDFFDFB617FF233C004D56DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFFDFB417FF233C004D56DE /* DealCast */,
+				BDFFDFD817FF233C004D56DE /* DealCastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFFDFB317FF233C004D56DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFFDFD417FF233C004D56DE /* Images.xcassets in Resources */,
+				BDE26481180E14BA001BD3FC /* Settings.plist in Resources */,
+				BDFFDFC317FF233C004D56DE /* InfoPlist.strings in Resources */,
+				BDFFDFCC17FF233C004D56DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFFDFD717FF233C004D56DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFFDFE517FF233C004D56DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E05D730E2D0B4046A4CC09BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBBB13EEAC040BF926BAC97 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFFDFB117FF233C004D56DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFFDFC517FF233C004D56DE /* main.m in Sources */,
+				BDE2647E180E0FFF001BD3FC /* CVDealsDataController.m in Sources */,
+				BDFFDFCF17FF233C004D56DE /* CVDealListController.m in Sources */,
+				BDE2647A180DA52E001BD3FC /* CVDealActivationViewController.m in Sources */,
+				BDE2646B180B5A27001BD3FC /* CVDeal.m in Sources */,
+				BDFFDFC917FF233C004D56DE /* CVAppDelegate.m in Sources */,
+				BDFFDFD217FF233C004D56DE /* CVDealBeaconsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFFDFD517FF233C004D56DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE2646C180B5A27001BD3FC /* CVDeal.m in Sources */,
+				BDFFDFE717FF233C004D56DE /* DealCastTests.m in Sources */,
+				BDE2647F180E0FFF001BD3FC /* CVDealsDataController.m in Sources */,
+				BDE2647B180DA52E001BD3FC /* CVDealActivationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDFFDFDF17FF233C004D56DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFFDFB417FF233C004D56DE /* DealCast */;
+			targetProxy = BDFFDFDE17FF233C004D56DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDFFDFC117FF233C004D56DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFFDFC217FF233C004D56DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDFFDFCA17FF233C004D56DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFFDFCB17FF233C004D56DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFFDFE317FF233C004D56DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFFDFE417FF233C004D56DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFFDFE817FF233C004D56DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDFFDFE917FF233C004D56DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFFDFEB17FF233C004D56DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E85513F4BA64860846FC405 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DealCast/DealCast-Prefix.pch";
+				INFOPLIST_FILE = "DealCast/DealCast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDFFDFEC17FF233C004D56DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E85513F4BA64860846FC405 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DealCast/DealCast-Prefix.pch";
+				INFOPLIST_FILE = "DealCast/DealCast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDFFDFEE17FF233C004D56DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DealCast.app/DealCast";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DealCast/DealCast-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DealCastTests/DealCastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDFFDFEF17FF233C004D56DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DealCast.app/DealCast";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DealCast/DealCast-Prefix.pch";
+				INFOPLIST_FILE = "DealCastTests/DealCastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFFDFB017FF233C004D56DE /* Build configuration list for PBXProject "DealCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFFDFE817FF233C004D56DE /* Debug */,
+				BDFFDFE917FF233C004D56DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFFDFEA17FF233C004D56DE /* Build configuration list for PBXNativeTarget "DealCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFFDFEB17FF233C004D56DE /* Debug */,
+				BDFFDFEC17FF233C004D56DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFFDFED17FF233C004D56DE /* Build configuration list for PBXNativeTarget "DealCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFFDFEE17FF233C004D56DE /* Debug */,
+				BDFFDFEF17FF233C004D56DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDFFDFAD17FF233C004D56DE /* Project object */;
+}
