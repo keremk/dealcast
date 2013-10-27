@@ -20,6 +20,7 @@
 @property(nonatomic, strong) NSNumber *bluetoothPower;
 @property(nonatomic) BOOL isActive;
 @property(nonatomic) CLProximity proximity;
+@property(nonatomic, strong) NSString *userFriendlyLocationName;
 
 - (CVDeal *) initWithDictionary:(NSDictionary *) dict;
 

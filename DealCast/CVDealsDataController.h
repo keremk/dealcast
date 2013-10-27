@@ -30,4 +30,5 @@
 - (void) deactivateDeal:(CVDeal *) deal;
 - (void) startRangingBeacons;
 - (void) stopRangingBeacons;
+
 @end

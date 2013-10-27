@@ -8,6 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		14F63451FA8B465487780273 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EA49EF03524592AF8AE588 /* libPods.a */; };
+		18AB0EAB18102F8A00E42269 /* CVDealDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB0EAA18102F8A00E42269 /* CVDealDetailsViewController.m */; };
+		18AB0EAC18102F8A00E42269 /* CVDealDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB0EAA18102F8A00E42269 /* CVDealDetailsViewController.m */; };
+		18AB0EC218145C2200E42269 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0EBF18145C2200E42269 /* libcrypto.a */; };
+		18AB0EC318145C2200E42269 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0EC018145C2200E42269 /* libssl.a */; };
+		18AB0EC418145C2200E42269 /* libTwilioClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0EC118145C2200E42269 /* libTwilioClient.a */; };
+		18AB0EC718145CEA00E42269 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0EC518145CEA00E42269 /* AudioToolbox.framework */; };
+		18AB0EC818145CEA00E42269 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0EC618145CEA00E42269 /* AVFoundation.framework */; };
+		18AB0ECB18145DA000E42269 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0EC918145DA000E42269 /* CFNetwork.framework */; };
+		18AB0ECC18145DA000E42269 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0ECA18145DA000E42269 /* SystemConfiguration.framework */; };
+		18EADA491814BC1300598297 /* disconnect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA3A1814BC1300598297 /* disconnect.wav */; };
+		18EADA4A1814BC1300598297 /* dtmf_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA3B1814BC1300598297 /* dtmf_0.wav */; };
+		18EADA4B1814BC1300598297 /* dtmf_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA3C1814BC1300598297 /* dtmf_1.wav */; };
+		18EADA4C1814BC1300598297 /* dtmf_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA3D1814BC1300598297 /* dtmf_2.wav */; };
+		18EADA4D1814BC1300598297 /* dtmf_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA3E1814BC1300598297 /* dtmf_3.wav */; };
+		18EADA4E1814BC1300598297 /* dtmf_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA3F1814BC1300598297 /* dtmf_4.wav */; };
+		18EADA4F1814BC1300598297 /* dtmf_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA401814BC1300598297 /* dtmf_5.wav */; };
+		18EADA501814BC1300598297 /* dtmf_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA411814BC1300598297 /* dtmf_6.wav */; };
+		18EADA511814BC1300598297 /* dtmf_7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA421814BC1300598297 /* dtmf_7.wav */; };
+		18EADA521814BC1300598297 /* dtmf_8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA431814BC1300598297 /* dtmf_8.wav */; };
+		18EADA531814BC1300598297 /* dtmf_9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA441814BC1300598297 /* dtmf_9.wav */; };
+		18EADA541814BC1300598297 /* dtmf_hash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA451814BC1300598297 /* dtmf_hash.wav */; };
+		18EADA551814BC1300598297 /* dtmf_star.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA461814BC1300598297 /* dtmf_star.wav */; };
+		18EADA561814BC1300598297 /* incoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA471814BC1300598297 /* incoming.wav */; };
+		18EADA571814BC1300598297 /* outgoing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18EADA481814BC1300598297 /* outgoing.wav */; };
+		18EADA5B1814EF1300598297 /* CVTwilioPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA5A1814EF1300598297 /* CVTwilioPhone.m */; };
+		18EADA5C1814EF1300598297 /* CVTwilioPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA5A1814EF1300598297 /* CVTwilioPhone.m */; };
+		18EADA5F1814EF8700598297 /* CVTwilioSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA5E1814EF8700598297 /* CVTwilioSMS.m */; };
+		18EADA601814EF8700598297 /* CVTwilioSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA5E1814EF8700598297 /* CVTwilioSMS.m */; };
+		18EADA631814F5C400598297 /* CVTwilioClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA621814F5C400598297 /* CVTwilioClient.m */; };
+		18EADA641814F5C400598297 /* CVTwilioClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA621814F5C400598297 /* CVTwilioClient.m */; };
+		18EADA671814F67C00598297 /* CVSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA661814F67C00598297 /* CVSettings.m */; };
+		18EADA681814F67C00598297 /* CVSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EADA661814F67C00598297 /* CVSettings.m */; };
 		BDE2646B180B5A27001BD3FC /* CVDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2646A180B5A27001BD3FC /* CVDeal.m */; };
 		BDE2646C180B5A27001BD3FC /* CVDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2646A180B5A27001BD3FC /* CVDeal.m */; };
 		BDE2647A180DA52E001BD3FC /* CVDealActivationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE26479180DA52E001BD3FC /* CVDealActivationViewController.m */; };
@@ -46,6 +78,41 @@
 
 /* Begin PBXFileReference section */
 		12EA49EF03524592AF8AE588 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AB0EA918102F8A00E42269 /* CVDealDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDealDetailsViewController.h; sourceTree = "<group>"; };
+		18AB0EAA18102F8A00E42269 /* CVDealDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDealDetailsViewController.m; sourceTree = "<group>"; };
+		18AB0EB9181313D500E42269 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../Downloads/TwilioClient-1.1.2-a755dee/Libraries/libcrypto.a"; sourceTree = "<group>"; };
+		18AB0EBA181313D500E42269 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../../Downloads/TwilioClient-1.1.2-a755dee/Libraries/libssl.a"; sourceTree = "<group>"; };
+		18AB0EBB181313D500E42269 /* libTwilioClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTwilioClient.a; path = "../../Downloads/TwilioClient-1.1.2-a755dee/Libraries/libTwilioClient.a"; sourceTree = "<group>"; };
+		18AB0EBF18145C2200E42269 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Twilio/Libraries/libcrypto.a; sourceTree = "<group>"; };
+		18AB0EC018145C2200E42269 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Twilio/Libraries/libssl.a; sourceTree = "<group>"; };
+		18AB0EC118145C2200E42269 /* libTwilioClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTwilioClient.a; path = Twilio/Libraries/libTwilioClient.a; sourceTree = "<group>"; };
+		18AB0EC518145CEA00E42269 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18AB0EC618145CEA00E42269 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18AB0EC918145DA000E42269 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18AB0ECA18145DA000E42269 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18EADA3A1814BC1300598297 /* disconnect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disconnect.wav; sourceTree = "<group>"; };
+		18EADA3B1814BC1300598297 /* dtmf_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_0.wav; sourceTree = "<group>"; };
+		18EADA3C1814BC1300598297 /* dtmf_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_1.wav; sourceTree = "<group>"; };
+		18EADA3D1814BC1300598297 /* dtmf_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_2.wav; sourceTree = "<group>"; };
+		18EADA3E1814BC1300598297 /* dtmf_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_3.wav; sourceTree = "<group>"; };
+		18EADA3F1814BC1300598297 /* dtmf_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_4.wav; sourceTree = "<group>"; };
+		18EADA401814BC1300598297 /* dtmf_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_5.wav; sourceTree = "<group>"; };
+		18EADA411814BC1300598297 /* dtmf_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_6.wav; sourceTree = "<group>"; };
+		18EADA421814BC1300598297 /* dtmf_7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_7.wav; sourceTree = "<group>"; };
+		18EADA431814BC1300598297 /* dtmf_8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_8.wav; sourceTree = "<group>"; };
+		18EADA441814BC1300598297 /* dtmf_9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_9.wav; sourceTree = "<group>"; };
+		18EADA451814BC1300598297 /* dtmf_hash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_hash.wav; sourceTree = "<group>"; };
+		18EADA461814BC1300598297 /* dtmf_star.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dtmf_star.wav; sourceTree = "<group>"; };
+		18EADA471814BC1300598297 /* incoming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incoming.wav; sourceTree = "<group>"; };
+		18EADA481814BC1300598297 /* outgoing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = outgoing.wav; sourceTree = "<group>"; };
+		18EADA591814EF1300598297 /* CVTwilioPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTwilioPhone.h; sourceTree = "<group>"; };
+		18EADA5A1814EF1300598297 /* CVTwilioPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTwilioPhone.m; sourceTree = "<group>"; };
+		18EADA5D1814EF8700598297 /* CVTwilioSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTwilioSMS.h; sourceTree = "<group>"; };
+		18EADA5E1814EF8700598297 /* CVTwilioSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTwilioSMS.m; sourceTree = "<group>"; };
+		18EADA611814F5C400598297 /* CVTwilioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTwilioClient.h; sourceTree = "<group>"; };
+		18EADA621814F5C400598297 /* CVTwilioClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTwilioClient.m; sourceTree = "<group>"; };
+		18EADA651814F67C00598297 /* CVSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVSettings.h; sourceTree = "<group>"; };
+		18EADA661814F67C00598297 /* CVSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVSettings.m; sourceTree = "<group>"; };
 		1E85513F4BA64860846FC405 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BDE26469180B5A27001BD3FC /* CVDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDeal.h; sourceTree = "<group>"; };
 		BDE2646A180B5A27001BD3FC /* CVDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDeal.m; sourceTree = "<group>"; };
@@ -84,6 +151,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AB0ECB18145DA000E42269 /* CFNetwork.framework in Frameworks */,
+				18AB0ECC18145DA000E42269 /* SystemConfiguration.framework in Frameworks */,
+				18AB0EC718145CEA00E42269 /* AudioToolbox.framework in Frameworks */,
+				18AB0EC818145CEA00E42269 /* AVFoundation.framework in Frameworks */,
+				18AB0EC218145C2200E42269 /* libcrypto.a in Frameworks */,
+				18AB0EC318145C2200E42269 /* libssl.a in Frameworks */,
+				18AB0EC418145C2200E42269 /* libTwilioClient.a in Frameworks */,
 				BDFFDFF317FFB12F004D56DE /* CoreBluetooth.framework in Frameworks */,
 				BDFFDFF117FFB116004D56DE /* CoreLocation.framework in Frameworks */,
 				BDFFDFBB17FF233C004D56DE /* CoreGraphics.framework in Frameworks */,
@@ -106,7 +180,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BDE26468180B5A10001BD3FC /* Models */ = {
+		18EADA391814BC1300598297 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18EADA3A1814BC1300598297 /* disconnect.wav */,
+				18EADA3B1814BC1300598297 /* dtmf_0.wav */,
+				18EADA3C1814BC1300598297 /* dtmf_1.wav */,
+				18EADA3D1814BC1300598297 /* dtmf_2.wav */,
+				18EADA3E1814BC1300598297 /* dtmf_3.wav */,
+				18EADA3F1814BC1300598297 /* dtmf_4.wav */,
+				18EADA401814BC1300598297 /* dtmf_5.wav */,
+				18EADA411814BC1300598297 /* dtmf_6.wav */,
+				18EADA421814BC1300598297 /* dtmf_7.wav */,
+				18EADA431814BC1300598297 /* dtmf_8.wav */,
+				18EADA441814BC1300598297 /* dtmf_9.wav */,
+				18EADA451814BC1300598297 /* dtmf_hash.wav */,
+				18EADA461814BC1300598297 /* dtmf_star.wav */,
+				18EADA471814BC1300598297 /* incoming.wav */,
+				18EADA481814BC1300598297 /* outgoing.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18EADA581814EE1F00598297 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				18EADA591814EF1300598297 /* CVTwilioPhone.h */,
+				18EADA5A1814EF1300598297 /* CVTwilioPhone.m */,
+				18EADA5D1814EF8700598297 /* CVTwilioSMS.h */,
+				18EADA5E1814EF8700598297 /* CVTwilioSMS.m */,
+				18EADA611814F5C400598297 /* CVTwilioClient.h */,
+				18EADA621814F5C400598297 /* CVTwilioClient.m */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		BDE26468180B5A10001BD3FC /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				BDE26469180B5A27001BD3FC /* CVDeal.h */,
@@ -114,12 +223,13 @@
 				BDE2647C180E0FFF001BD3FC /* CVDealsDataController.h */,
 				BDE2647D180E0FFF001BD3FC /* CVDealsDataController.m */,
 			);
-			name = Models;
+			name = Data;
 			sourceTree = "<group>";
 		};
 		BDFFDFAC17FF233C004D56DE = {
 			isa = PBXGroup;
 			children = (
+				18EADA391814BC1300598297 /* Resources */,
 				BDFFDFBE17FF233C004D56DE /* DealCast */,
 				BDFFDFE017FF233C004D56DE /* DealCastTests */,
 				BDFFDFB717FF233C004D56DE /* Frameworks */,
@@ -140,6 +250,16 @@
 		BDFFDFB717FF233C004D56DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18AB0EC918145DA000E42269 /* CFNetwork.framework */,
+				18AB0ECA18145DA000E42269 /* SystemConfiguration.framework */,
+				18AB0EC518145CEA00E42269 /* AudioToolbox.framework */,
+				18AB0EC618145CEA00E42269 /* AVFoundation.framework */,
+				18AB0EBF18145C2200E42269 /* libcrypto.a */,
+				18AB0EC018145C2200E42269 /* libssl.a */,
+				18AB0EC118145C2200E42269 /* libTwilioClient.a */,
+				18AB0EB9181313D500E42269 /* libcrypto.a */,
+				18AB0EBA181313D500E42269 /* libssl.a */,
+				18AB0EBB181313D500E42269 /* libTwilioClient.a */,
 				BDFFDFF217FFB12F004D56DE /* CoreBluetooth.framework */,
 				BDFFDFF017FFB116004D56DE /* CoreLocation.framework */,
 				BDFFDFB817FF233C004D56DE /* Foundation.framework */,
@@ -154,7 +274,8 @@
 		BDFFDFBE17FF233C004D56DE /* DealCast */ = {
 			isa = PBXGroup;
 			children = (
-				BDE26468180B5A10001BD3FC /* Models */,
+				18EADA581814EE1F00598297 /* Phone */,
+				BDE26468180B5A10001BD3FC /* Data */,
 				BDFFDFC717FF233C004D56DE /* CVAppDelegate.h */,
 				BDFFDFC817FF233C004D56DE /* CVAppDelegate.m */,
 				BDFFDFCA17FF233C004D56DE /* Main.storyboard */,
@@ -166,6 +287,10 @@
 				BDFFDFBF17FF233C004D56DE /* Supporting Files */,
 				BDE26478180DA52E001BD3FC /* CVDealActivationViewController.h */,
 				BDE26479180DA52E001BD3FC /* CVDealActivationViewController.m */,
+				18AB0EA918102F8A00E42269 /* CVDealDetailsViewController.h */,
+				18AB0EAA18102F8A00E42269 /* CVDealDetailsViewController.m */,
+				18EADA651814F67C00598297 /* CVSettings.h */,
+				18EADA661814F67C00598297 /* CVSettings.m */,
 			);
 			path = DealCast;
 			sourceTree = "<group>";
@@ -250,6 +375,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = CodingVentures;
 				TargetAttributes = {
+					BDFFDFB417FF233C004D56DE = {
+						DevelopmentTeam = 2MQJ85RL4P;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					BDFFDFD817FF233C004D56DE = {
 						TestTargetID = BDFFDFB417FF233C004D56DE;
 					};
@@ -279,10 +412,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EADA521814BC1300598297 /* dtmf_8.wav in Resources */,
+				18EADA551814BC1300598297 /* dtmf_star.wav in Resources */,
+				18EADA4D1814BC1300598297 /* dtmf_3.wav in Resources */,
+				18EADA4B1814BC1300598297 /* dtmf_1.wav in Resources */,
+				18EADA4E1814BC1300598297 /* dtmf_4.wav in Resources */,
+				18EADA4A1814BC1300598297 /* dtmf_0.wav in Resources */,
+				18EADA4C1814BC1300598297 /* dtmf_2.wav in Resources */,
 				BDFFDFD417FF233C004D56DE /* Images.xcassets in Resources */,
+				18EADA541814BC1300598297 /* dtmf_hash.wav in Resources */,
+				18EADA501814BC1300598297 /* dtmf_6.wav in Resources */,
+				18EADA4F1814BC1300598297 /* dtmf_5.wav in Resources */,
+				18EADA571814BC1300598297 /* outgoing.wav in Resources */,
 				BDE26481180E14BA001BD3FC /* Settings.plist in Resources */,
 				BDFFDFC317FF233C004D56DE /* InfoPlist.strings in Resources */,
+				18EADA511814BC1300598297 /* dtmf_7.wav in Resources */,
+				18EADA531814BC1300598297 /* dtmf_9.wav in Resources */,
 				BDFFDFCC17FF233C004D56DE /* Main.storyboard in Resources */,
+				18EADA561814BC1300598297 /* incoming.wav in Resources */,
+				18EADA491814BC1300598297 /* disconnect.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,9 +485,14 @@
 				BDFFDFC517FF233C004D56DE /* main.m in Sources */,
 				BDE2647E180E0FFF001BD3FC /* CVDealsDataController.m in Sources */,
 				BDFFDFCF17FF233C004D56DE /* CVDealListController.m in Sources */,
+				18EADA5B1814EF1300598297 /* CVTwilioPhone.m in Sources */,
 				BDE2647A180DA52E001BD3FC /* CVDealActivationViewController.m in Sources */,
+				18EADA631814F5C400598297 /* CVTwilioClient.m in Sources */,
+				18AB0EAB18102F8A00E42269 /* CVDealDetailsViewController.m in Sources */,
 				BDE2646B180B5A27001BD3FC /* CVDeal.m in Sources */,
 				BDFFDFC917FF233C004D56DE /* CVAppDelegate.m in Sources */,
+				18EADA671814F67C00598297 /* CVSettings.m in Sources */,
+				18EADA5F1814EF8700598297 /* CVTwilioSMS.m in Sources */,
 				BDFFDFD217FF233C004D56DE /* CVDealBeaconsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,9 +501,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EADA681814F67C00598297 /* CVSettings.m in Sources */,
+				18EADA601814EF8700598297 /* CVTwilioSMS.m in Sources */,
 				BDE2646C180B5A27001BD3FC /* CVDeal.m in Sources */,
 				BDFFDFE717FF233C004D56DE /* DealCastTests.m in Sources */,
+				18EADA641814F5C400598297 /* CVTwilioClient.m in Sources */,
 				BDE2647F180E0FFF001BD3FC /* CVDealsDataController.m in Sources */,
+				18EADA5C1814EF1300598297 /* CVTwilioPhone.m in Sources */,
+				18AB0EAC18102F8A00E42269 /* CVDealDetailsViewController.m in Sources */,
 				BDE2647B180DA52E001BD3FC /* CVDealActivationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,10 +629,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DealCast/DealCast-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PROJECT_DIR}/Twilio/Headers\"",
+				);
 				INFOPLIST_FILE = "DealCast/DealCast-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/keremk/Downloads/TwilioClient-1.1.2-a755dee/Libraries",
+					/Users/keremk/Developer/dealcast/Twilio/Libraries,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -485,10 +668,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DealCast/DealCast-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PROJECT_DIR}/Twilio/Headers\"",
+				);
 				INFOPLIST_FILE = "DealCast/DealCast-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/keremk/Downloads/TwilioClient-1.1.2-a755dee/Libraries",
+					/Users/keremk/Developer/dealcast/Twilio/Libraries,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

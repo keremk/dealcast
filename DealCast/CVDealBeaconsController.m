@@ -7,6 +7,8 @@
 //
 
 #import "CVDealBeaconsController.h"
+#import "CVDealDetailsViewController.h"
+#import "CVDealsDataController.h"
 
 @interface CVDealBeaconsController ()
 
@@ -34,6 +36,7 @@
 
 - (void) startGettingDealList {
   _dealsDataController = [CVDealsDataController sharedInstance];
+  [_dealsDataController setDelegate:self];
   
   [_dealsDataController loadDealsFromServerSuccess: ^(CVDealsDataController *sender) {
     [_dealsDataController startRangingBeacons];
@@ -69,7 +72,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	static NSString *identifier = @"AvailableDealCell";
+	static NSString *identifier = @"DealsNearbyCell";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
 	if (cell == nil) {
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
@@ -92,5 +95,13 @@
   _dealsInRegion = deals;
   [self.tableView reloadData];
 }
+
+// In a story board-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    CVDealDetailsViewController *destVC = [segue destinationViewController];
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    destVC.selectedDeal = [_dealsDataController.deals objectAtIndex:indexPath.row];
+}
+
 
 @end

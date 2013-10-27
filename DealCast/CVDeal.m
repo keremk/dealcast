@@ -19,8 +19,9 @@
     self.description = [dict objectForKey:@"description"];
     self.major = [dict objectForKey:@"major"];
     self.minor = [dict objectForKey:@"minor"];
+    self.userFriendlyLocationName = [dict objectForKey:@"location_name"];
 
-    self.bluetoothPower = @-59;
+    self.bluetoothPower = @-9;
     self.isActive = NO;
   }
   return self;

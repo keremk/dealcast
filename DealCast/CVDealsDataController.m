@@ -7,6 +7,7 @@
 //
 
 #import "CVDealsDataController.h"
+#import "CVSettings.h"
 
 #import <AFNetworking.h>
 
@@ -39,32 +40,20 @@
 - (id)init {
   self = [super init];
   if (self) {
-    NSDictionary *settings = [self loadSettings];
+    NSDictionary *settings = [CVSettings loadSettings];
     if (settings) {
       _dealDB = [NSDictionary dictionary];
       _apiServerURL = [settings valueForKey:@"apiServerURL"];
       _beaconUUID = [[NSUUID alloc] initWithUUIDString:[settings valueForKey:@"beaconUUID"]];
       _currentActiveDeal = nil;
       
-      _proximityRegion = [[CLBeaconRegion alloc] initWithProximityUUID:_beaconUUID identifier:@"com.codingventures.DealCast"];
+      _proximityRegion = [[CLBeaconRegion alloc] initWithProximityUUID:_beaconUUID
+                                                            identifier:@"com.codingventures.DealCast"];
       _locationManager = [[CLLocationManager alloc] init];
       _locationManager.delegate = self;
     }
   }
   return self;
-}
-
-- (NSDictionary *) loadSettings {
-  NSString *filePath = [[NSBundle bundleForClass: [CVDealsDataController class]] pathForResource:@"Settings" ofType:@"plist"];
-  NSData *pListData = [NSData dataWithContentsOfFile:filePath];
-  NSPropertyListFormat format;
-  NSString *error;
-  NSDictionary *settings = (NSDictionary *) [NSPropertyListSerialization propertyListFromData:pListData
-                                                                             mutabilityOption:NSPropertyListImmutable
-                                                                                       format:&format
-                                                                             errorDescription:&error];
-  
-  return settings;
 }
 
 - (void) loadDealsFromServerSuccess:(void (^)(CVDealsDataController *dealsController)) success
@@ -105,7 +94,7 @@
 - (void) deactivateDeal:(CVDeal *)deal {
   _currentActiveDeal.isActive = NO;
   deal.isActive = NO;
-  [_peripheralManager stopAdvertising];
+  [self stopAdvertising];
 }
 
 - (void) startRangingBeacons {
@@ -113,7 +102,7 @@
 
 }
 
-- (void) stopRanginingBeacons {
+- (void) stopRangingBeacons {
     // Stop ranging when the view goes away.
   [_locationManager stopRangingBeaconsInRegion:_proximityRegion];
 }
@@ -123,13 +112,7 @@
   if (_currentActiveDeal == nil){
     return;
   }
-  if (_peripheralManager == nil){
-    _peripheralManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)];
-  }
-  if(_peripheralManager.state < CBPeripheralManagerStatePoweredOn) {
-    UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Bluetooth must be enabled" message:@"To configure your device as a beacon" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [errorAlert show];
-    
+  if (![self checkBluetoothState]) {
     return;
   }
   
@@ -140,6 +123,28 @@
   NSDictionary *peripheralData = [region peripheralDataWithMeasuredPower:deal.bluetoothPower];
   
   [_peripheralManager startAdvertising:peripheralData];
+}
+
+- (void) stopAdvertising {
+  if (![self checkBluetoothState]) {
+    return;
+  }
+  [_peripheralManager stopAdvertising];
+}
+
+- (BOOL) checkBluetoothState {
+  if (_peripheralManager == nil){
+    _peripheralManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)];
+  }
+  
+  BOOL isOn = YES;
+  if (_peripheralManager.state < CBPeripheralManagerStatePoweredOn) {
+    UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Bluetooth must be enabled" message:@"To configure your device as a beacon" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [errorAlert show];
+    
+    isOn = NO;
+  }
+  return isOn;
 }
 
 - (void)peripheralManagerDidUpdateState:(CBPeripheralManager *)peripheral {
@@ -158,8 +163,21 @@
     [nearbyDeals addObject:deal];
   }];
   
-  if ([self.delegate respondsToSelector:@selector(regionHasDeals:)]) {
+  if ([self.delegate respondsToSelector:@selector(regionHasDeals:)] && ([nearbyDeals count] > 0)) {
     [self.delegate regionHasDeals:nearbyDeals];
   }
 }
+
+- (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
+  NSLog(@"Entered region");
+}
+
+- (void)locationManager:(CLLocationManager *)manager monitoringDidFailForRegion:(CLRegion *)region withError:(NSError *)error {
+  NSLog(@"Error monitoring failed: %@", error);
+}
+
+- (void)locationManager:(CLLocationManager *)manager rangingBeaconsDidFailForRegion:(CLBeaconRegion *)region withError:(NSError *)error {
+  NSLog(@"Ranging beacons failed: %@", error);
+}
+
 @end
